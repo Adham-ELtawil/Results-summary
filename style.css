@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    min-height: 100vh;
+    color:  hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background:white;
+    width: 700px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 4px 20px 0px #c2c2c2;
+}
+
+.content .card{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px;
+    width: 350px;
+}
+
+.content .card h4{
+    padding: 20px 0 ;
+    font-size: 30px;
+    font-weight: 700;
+    color: #c3c3c3;
+}
+
+.content .card p{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .card p .N{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .NN{
+    font-size: 15px;
+    color: #c3c3c3;
+}
+
+.content .card h3{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.content .card h6{
+    font-size: 20px;
+    font-weight: 300;
+    color: #c3c3c3;
+}
+
+.content .results{
+    padding: 30px;
+    width: 350px;
+}
+
+.content .results p{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.content .results .boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+@media (max-width:767px) {
+    .content{
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+.A,.B,.C,.D{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.content .results .boxs p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content .results .boxs .A{
+    background: hsl(0, 100%, 67%, 0.2);
+}
+.content .results .boxs .A p{
+    color: hsl(0, 100%, 67%);
+}
+.content .results .boxs .B{
+    background: hsl(39, 100%, 56%, 0.2);
+}
+.content .results .boxs .B p{
+    color: hsl(39, 100%, 56%);
+}
+.content .results .boxs .C{
+    background: hsl(166, 100%, 37%, 0.2);
+}
+.content .results .boxs .C p{
+    color: hsl(166, 100%, 37%);
+}
+.content .results .boxs .D{
+    background: hsl(234, 85%, 45%, 0.2);
+}
+.content .results .boxs .D p{
+    color: hsl(234, 85%, 45%);
+}
+
+.content .results .boxs h3{
+    position: absolute;
+    right: 10px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
